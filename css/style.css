@@ -129,3 +129,43 @@ border-radius: 5px;
   padding: 0;
   padding-left: 30px;
 }
+.tabla > tr,th{
+    flex:1;
+    border: 0;
+    padding: 1em;
+    font-size: 1em;
+    justify-content: center;
+    font-family: "Verdana";
+    text-align: left;
+}
+
+.formulario form input{
+    font-size: .8em;
+    text-align: center;
+    font-family: "Verdana";
+    padding: .4em;
+    margin-left: -1em;
+}
+input,textarea{
+border-radius:5px;
+
+}
+
+.boton{
+    text-align: center;
+    height: 3em;
+    margin: 1em 0;
+}
+
+.boton input{
+    height: 80%;
+    width: 80%;
+    color: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.boton input:hover{
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    font:
+}

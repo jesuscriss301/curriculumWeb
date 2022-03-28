@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Conocimientos adquiridos</title>
+    <title>Contacto</title>
   </head>
   <body>
     <header class="columns">
@@ -16,32 +16,36 @@
     <nav>
       <ul>
         <li> <a href="../index.html">Inicio</a></li>
-        <li class="active"> <a href="#">Conocimientos</a></li>
+        <li> <a href="Conocimientos.html">Conocimientos</a></li>
         <li> <a href="proyectos.html">Proyectos</a></li>
-        <li> <a href="contacto.html">Contacto</a></li>
+        <li class="active"> <a href="#">Contacto</a></li>
       </ul>
     </nav>
     <section class="estudios">
-      <h2>conocimientos adquiridos</h2>
-      <ul>
-        <li>
-          <h3>Estudios</h3>
-          <ul>
-            <li><h4>Bachiller Academico</h4>
-              <span>2017</span>
-              <p>COLMUNA: Institución Educativa Colegio Municipal Aeropuerto</p>
-            </li>
-            <li><h4>Tecnico en Sistemas</h4>
-              <span>2018</span>
-              <p>SENA: Servicio Nacional de Aprendizaje</p>
-            </li>
-            <li><h4>Ingeniuero en Sistemas</h4>
-              <span>2018-en curso</span>
-              <p>UFPS: Universidad Francisco de Paula Santander</p>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <form action="#">
+            <table class="tabla">
+                <tr>
+                    <th>Nombre completo: </th>
+                    <th><input type="text" placeholder="Ingrese su nombre" required></th>
+                </tr>
+                <tr>
+                    <th>Número de teléfono: </th>
+                    <th><input type="text" placeholder="Ingrese su teléfono" required></th>
+                </tr>
+                <tr>
+                    <th>Correo electrónico: </th>
+                    <th><input type="text" placeholder="Ingrese su Email" required></th>
+                </tr>
+                <tr>
+                    <th>Mensaje: </th>
+                    <th><textarea name="mensaje" rows="3" cols="80" placeholder="Ingrese su mesnsaje "></textarea></th>
+                </tr>
+            </table>
+
+            <div class="boton">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
     </section>
     <footer>
       <article class="">
